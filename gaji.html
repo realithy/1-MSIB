@@ -1,0 +1,36 @@
+<script>
+    // data pegawai
+    let pegawai = "Haya";
+    let jabatan = "Manager";
+    let status = "Belum Menikah";
+
+    // gaji pokok
+    if (jabatan == 'Manager') {
+        gaji = 10000000;
+    }
+    else if (jabatan == 'Asisten Manager') {
+        gaji = 8000000;
+    }
+    else if (jabatan == 'Staff') {
+        gaji = 5000000
+    }
+    else {
+        gaji = 0;
+    }
+
+    // tj (tunjangan jabatan) & bpjs
+    let tj = gaji * 10 / 100;
+    let bpjs = gaji * 10 / 100;
+    
+    // total penghasilan
+    let total = gaji + tj + bpjs;
+
+    document.write("Nama Pegawai = " + pegawai +
+    "<br> Jabatan = " + jabatan +
+    "<br> Status = " + status +
+    "<br> Gaji Pokok = " + gaji + 
+    "<br> Tunjangan Jabatan 10% = " + tj + 
+    "<br> BPJS 10% = " + bpjs + 
+    "<br> Total Penghasilan = " + total
+    )
+</script>
