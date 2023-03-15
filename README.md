@@ -1,2 +1,2 @@
-# JS-MSIB
-repository tugas JavaScript
+# 1-MSIB
+repository tugas MSIB
